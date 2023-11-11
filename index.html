@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de Banco de Dados</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="mainArea">
+        <table border="0" maxwidth="90%" align="center">
+            <tr>
+                <td>
+                    <h1 class="titulo">Bem vindo ao Login Gui_do_Excel</h1>
+                    <img id="logo" src="imgs/Logotipo.jpg" alt="logotipoGuiDoExcel">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <img src="imgs/R.png" alt="Excel">
+                </td>
+            </tr>
+        </table>
+        </div>
+    </header>
+    <main id="PHPArea">
+        <form action="cadastro.php" method="post">
+            <label name="nome">Nome:</label>
+            <input type="text" name="user">
+            <label name="nome">Sobrenome:</label>
+            <input type="text" name="userS">
+            <label name="nome">Digite seu endereço:</label>
+            <input type="text" name="address">
+            <label name="nome">Digite seu telefone:</label>
+            <input type="text" name="number">
+            <input type="submit" value="Enviar Dados de Matrícula">
+        </form>
+    </main>
+</body>
+</html>
